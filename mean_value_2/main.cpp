@@ -15,7 +15,7 @@ int main() {
 			GaussianBlur(src, dst, Size(3, 3), 100, 0);
 			imshow("src", src);
 			imshow("dst", dst);
-			waitKey(0);
+			waitKey(30);
 		}
 
 
